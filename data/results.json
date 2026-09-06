@@ -1,0 +1,7 @@
+{
+ "1245620": {
+  "status": "works",
+  "date": "2026-09-06 11:12 +03",
+  "note": "CrossOver 26.3 trial, bottle Steam, D3DMetal 3.0 (HUD: D3D12, GPTK 3.0), native 3024x1964, 60.00 fps (game cap), GPU 8.13 ms, GPU util 65%, msync on, offline (eldenring.exe launched by CrossOver profile, EAC not loaded), gameplay reached"
+ }
+}
