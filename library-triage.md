@@ -1,20 +1,20 @@
 # Library triage — living compatibility map
 
-Updated 2026-09-06 11:12 +0300. Source of truth for what to try next. Buckets are re-derived by `data/make_triage.py`; per-game test results live in `data/results.json`.
+Updated 2026-09-06 13:36 +0300. Source of truth for what to try next. Buckets are re-derived by `data/make_triage.py`; per-game test results live in `data/results.json`.
 
-**Library found locally: 145 apps (46 games/demos, 99 tools/DLC).** The Steam profile is private and there is no Web API key, so this is the set the signed-in client cached (library cache + playtime); titles never opened in the client may be missing. Paste a fuller list into `data/owned_ids.txt` and re-run to extend.
+**Library found locally: 145 apps (38 games/demos, 107 tools/DLC).** The Steam profile is private and there is no Web API key, so this is the set the signed-in client cached (library cache + playtime); titles never opened in the client may be missing. Paste a fuller list into `data/owned_ids.txt` and re-run to extend.
 
 | Bucket | Games | Meaning |
 |---|---|---|
 | Confirmed working here | 1 | launched and verified on this Mac by the setup session |
 | Native macOS | 9 | has a Mac build on Steam — run it in the native Steam app, no CrossOver needed |
-| Should work well | 6 | no kernel anti-cheat, CrossOver database rates it Runs/Runs well/Runs great |
-| Works with tweaks | 0 | needs a renderer switch, launcher workaround or Winetricks component (see notes) |
-| Unknown / untested | 23 | no kernel anti-cheat and no CrossOver verdict found — just try it (D3DMetal first, DXMT if black screen) |
+| Should work well | 8 | no kernel anti-cheat, CrossOver database rates it Runs/Runs well/Runs great |
+| Works with tweaks | 1 | needs a renderer switch, launcher workaround or Winetricks component (see notes) |
+| Unknown / untested | 12 | no kernel anti-cheat and no CrossOver verdict found — just try it (D3DMetal first, DXMT if black screen) |
 | Known broken | 1 | CrossOver database says it does not run |
 | Kernel anti-cheat (blocked online) | 6 | online play is a hard wall on any Wine-based tool; single-player/offline modes may still run when the game offers an EAC-free launch |
 
-Realistic coverage right now: **16 of 46 games (34%)** are native, confirmed, or rated by CrossOver as working; 6 are blocked online by kernel anti-cheat; 23 need a first try.
+Realistic coverage right now: **19 of 38 games (50%)** are native, confirmed, or rated by CrossOver as working; 6 are blocked online by kernel anti-cheat; 12 need a first try.
 
 ## Confirmed working here (1)
 
@@ -36,7 +36,7 @@ Realistic coverage right now: **16 of 46 games (34%)** are native, confirmed, or
 | Half-Life 2: Demo | 219 | 0h 0m | - | - | - | - |  |
 | Portal: First Slice | 410 | 0h 0m | - | - | - | - |  |
 
-## Should work well (6)
+## Should work well (8)
 
 | Game | AppID | Played | Anti-cheat | CrossOver rating | Renderer | Cloud (GFN) | Notes |
 |---|---|---|---|---|---|---|---|
@@ -44,36 +44,33 @@ Realistic coverage right now: **16 of 46 games (34%)** are native, confirmed, or
 | RuneScape: Dragonwilds | 1374490 | 39h 15m | - | Runs | - | - | Community video only, no CodeWeavers badge captured (low confidence) |
 | Hogwarts Legacy | 990080 | 25h 1m | - | Runs well | D3DMetal | - | 60 fps reported on macOS 26 with Metal 4 + GPTK 3.0 (Notebookcheck) |
 | Counter-Strike 2 | 730 | 20h 20m | VAC | Runs | D3DMetal or DXMT | yes | Community: playable online; D3DMetal faster start but stutters in fights, DXMT stutters first rounds; VAC status not documented |
-| Sons Of The Forest | 1326470 | 3h 13m | - | Runs | DXMT + FSR | - | Mixed reports (M2 Pro: 15-25 fps with glitches); CodeWeavers users recommend DXMT+FSR over D3DMetal |
+| V Rising | 1604030 | 0h 47m | Valve Anti-Cheat | Runs great | d3dmetal | - | V Rising: one MacGamingDB user report -- installs and runs great, even with dual monitors, no anti-cheat found for this title. Anecdotal (single report), not an official CodeWeavers rating. |
+| REANIMAL | 2129530 | 0h 39m | - | Runs | d3dmetal | - | REANIMAL: the Demo listing is confirmed working on CrossOver 25.1.1/26.0 via D3DMetal (macOS 15); the full game (this AppID) wasn't separately rated but should behave the same, no anti-cheat found. |
 | Black Myth: Wukong | 2358720 | 0h 19m | - | Runs well | D3DMetal | - | Needs GPTK 2.0+ (26.x ships 3.0); 60 fps on macOS 26 reported |
+| Yu-Gi-Oh! Master Duel | 1449850 | 0h 0m | - | Runs great | dxvk | - | Yu-Gi-Oh! Master Duel: rated 'EXCELLENT' on CrossOver 26.0 (up from 'VERY GOOD' on 25.1.1), best on DXVK not D3DMetal. No EAC/BattlEye found (inferred from absence + open cheat-engine activity on Steam forums, not a confirmed negative). Older/lower-RAM Macs report heavy fan use. |
 
-## Unknown / untested (23)
+## Works with tweaks (1)
+
+| Game | AppID | Played | Anti-cheat | CrossOver rating | Renderer | Cloud (GFN) | Notes |
+|---|---|---|---|---|---|---|---|
+| Sons Of The Forest | 1326470 | 3h 13m | - | Runs | DXMT + FSR | - | Mixed reports (M2 Pro: 15-25 fps with glitches); CodeWeavers users recommend DXMT+FSR over D3DMetal |
+
+## Unknown / untested (12)
 
 | Game | AppID | Played | Anti-cheat | CrossOver rating | Renderer | Cloud (GFN) | Notes |
 |---|---|---|---|---|---|---|---|
 | Schedule I | 3164500 | 53h 59m | - | - | - | - | No CrossOver data found; Unity title, no anti-cheat — try it |
-| Smart Game Booster | 1278480 | 35h 23m | - | - | - | - |  |
-| Wallpaper Engine | 431960 | 23h 14m | - | - | - | - |  |
-| Red Dead Online | 1404210 | 7h 4m | - | - | - | - |  |
+| Wallpaper Engine | 431960 | 23h 14m | - | - | - | - | Wallpaper Engine: CodeWeavers has a compatibility page but the rating text isn't retrievable via search; video/web wallpaper rendering is historically the hard part under Wine. Try D3DMetal first. |
+| Red Dead Online | 1404210 | 7h 4m | - | - | - | - | Red Dead Online (via RDR2): base RDR2 has CrossOver 25+ support and is NOT kernel-anti-cheat gated, but online reliability is reported as inconsistent (always-on Rockstar Launcher + behavior checks). Single-player RDR2 is the reliable use case; online is hit-or-miss, not a hard block. |
 | Sekiro™: Shadows Die Twice - GOTY Edition | 814380 | 5h 10m | - | - | - | - | CodeWeavers page exists, rating not captured; FromSoftware DX11 title, D3DMetal likely |
-| LOCKDOWN Protocol | 2780980 | 3h 2m | - | - | - | - |  |
-| Poppy Playtime | 1721470 | 1h 26m | - | - | - | - |  |
-| V Rising | 1604030 | 0h 47m | Valve Anti-Cheat | - | - | - |  |
+| LOCKDOWN Protocol | 2780980 | 3h 2m | - | - | - | - | LOCKDOWN Protocol: CodeWeavers promoted it as playable on Mac via CrossOver (X post), but the compatibility page has limited user submissions. Try D3DMetal first. |
+| Poppy Playtime | 1721470 | 1h 26m | - | - | - | - | Poppy Playtime: CodeWeavers page exists (one summary called its current rating stale); no anti-cheat found. Try D3DMetal first. |
 | Dying Light 2 Stay Human: Reloaded Edition | 534380 | 0h 41m | - | - | - | yes | CodeWeavers page exists, few testers |
-| REANIMAL | 2129530 | 0h 39m | - | - | - | - |  |
-| One-armed cook | 1977530 | 0h 31m | - | - | - | - |  |
-| PCMark 10 | 524390 | 0h 10m | - | - | - | - |  |
+| One-armed cook | 1977530 | 0h 31m | - | - | - | - | One-armed cook: confirmed no CrossOver/CodeWeavers data exists anywhere -- a genuinely obscure indie title. Try D3DMetal first, DXMT if it fails. |
 | Europa Universalis III Complete Demo | 22150 | 0h 0m | - | - | - | - |  |
-| Lepton | 3029110 | 0h 0m | - | - | - | - |  |
 | Precipice of Darkness, Episode One Demo | 18010 | 0h 0m | - | - | - | - |  |
 | Precipice of Darkness, Episode Two Demo | 18030 | 0h 0m | - | - | - | - |  |
-| Resident Evil 6 Benchmark Tool | 229950 | 0h 0m | - | - | - | - |  |
-| Source Filmmaker | 1840 | 0h 0m | - | - | - | - |  |
-| Steam 360 Video Player | 613220 | 0h 0m | - | - | - | - |  |
-| SteamVR | 250820 | 0h 0m | - | - | - | - |  |
 | Team Fortress 2 | 440 | 0h 0m | VAC | - | - | yes | Valve dropped the native Mac build; needs CrossOver now, verdict unverified |
-| VRMark | 464170 | 0h 0m | - | - | - | - |  |
-| Yu-Gi-Oh! Master Duel | 1449850 | 0h 0m | - | - | - | - |  |
 
 ## Known broken (1)
 
@@ -86,16 +83,18 @@ Realistic coverage right now: **16 of 46 games (34%)** are native, confirmed, or
 | Game | AppID | Played | Anti-cheat | CrossOver rating | Renderer | Cloud (GFN) | Notes |
 |---|---|---|---|---|---|---|---|
 | Destiny 2 | 1085660 | 37h 1m | BattlEye | Unplayable | - | yes | BattlEye: 'not compatible with Wine or CrossOver' (CodeWeavers page); online blocked |
-| Dead by Daylight | 381210 | 15h 22m | Easy Anti-Cheat | - | - | yes |  |
-| Paragon: The Overprime | 1531430 | 5h 9m | XIGNCODE3 | - | - | - |  |
+| Dead by Daylight | 381210 | 15h 22m | Easy Anti-Cheat | Unplayable | - | yes | Dead by Daylight: Easy Anti-Cheat blocks CrossOver outright, even Custom Games with Bots need a live BHVR server connection so there is no offline workaround. Watch for change: DbD began trialing Denuvo Anti-Cheat instead of EAC around 2026-09-02, but no post-switch CrossOver report exists yet. |
+| Paragon: The Overprime | 1531430 | 5h 9m | XIGNCODE3 | - | - | - | Paragon: The Overprime servers were shut down permanently on 2024-04-22 (Netmarble). The game no longer exists to connect to -- the XIGNCODE3/CrossOver question is moot. Nothing to try here. |
 | VRChat | 438100 | 2h 48m | Easy Anti-Cheat | - | - | - | EAC; old CodeWeavers rating flagged stale |
 | Sea of Thieves: 2026 Edition | 1172620 | 1h 21m | Easy Anti-Cheat | - | - | - | EAC; playable via Xbox Cloud Gaming (trueachievements, Sept 2026) |
-| Call of Duty: World at War | 10090 | 0h 21m | PunkBuster, Treyarch Anti-Cheat | - | - | - |  |
+| Call of Duty: World at War | 10090 | 0h 21m | PunkBuster, Treyarch Anti-Cheat | Runs | - | - | Call of Duty: World at War: campaign/offline launches and runs per CodeWeavers forum reports (some report no sound or reduced framerate). Multiplayer needs PunkBuster, which doesn't work under CrossOver -- use the Steam (DRM-free) build, not a disc install. |
 
-## Tools / DLC / non-game (99)
+## Tools / DLC / non-game (107)
 
 | Game | AppID | Played | Anti-cheat | CrossOver rating | Renderer | Cloud (GFN) | Notes |
 |---|---|---|---|---|---|---|---|
+| Smart Game Booster | 1278480 | 35h 23m | - | N/A | - | - | Smart Game Booster is a Windows system-optimization utility (IObit) -- it works by throttling real Windows processes/services, none of which exist inside a Wine bottle. Running it under CrossOver would be functionally inert. Excluded from the games list. |
+| PCMark 10 | 524390 | 0h 10m | - | - | - | - |  |
 | appid 480 | 480 | 0h 1m | - | - | - | - |  |
 | 3DMark API Overhead feature test | 407080 | 0h 0m | - | - | - | - |  |
 | 3DMark Cloud Gate benchmark | 406960 | 0h 0m | - | - | - | - |  |
@@ -188,10 +187,16 @@ Realistic coverage right now: **16 of 46 games (34%)** are native, confirmed, or
 | Call of Duty®: Black Ops III - Zombies Chronicles | 581450 | 0h 0m | - | - | - | - |  |
 | FiveM | 2676230 | 0h 0m | Unknown (Custom) | - | - | - |  |
 | Hogwarts Legacy: Onyx Hippogriff Mount | 1880830 | 0h 0m | - | - | - | - |  |
+| Lepton | 3029110 | 0h 0m | - | N/A | - | - | Lepton is Valve's own Android-on-Linux compatibility layer for the upcoming Steam Frame headset, not a Windows game -- it has no store page to launch and CrossOver is irrelevant. Excluded from the games list. |
 | Marvel Rivals - High-Resolution Pack | 4406010 | 0h 0m | - | - | - | - |  |
 | Poppy Playtime - Chapter 2 | 1817490 | 0h 0m | - | - | - | - |  |
 | RedM | 4333400 | 0h 0m | - | - | - | - |  |
+| Resident Evil 6 Benchmark Tool | 229950 | 0h 0m | - | - | - | - |  |
 | RuneScape: Dragonwilds Early Adopter Soundtrack | 3637470 | 0h 0m | - | - | - | - |  |
 | Smart Game Booster PRO | 1289950 | 0h 0m | - | - | - | - |  |
+| Source Filmmaker | 1840 | 0h 0m | - | - | - | - |  |
+| Steam 360 Video Player | 613220 | 0h 0m | - | - | - | - |  |
+| SteamVR | 250820 | 0h 0m | - | - | - | - |  |
+| VRMark | 464170 | 0h 0m | - | - | - | - |  |
 | VRMark Preview | 428810 | 0h 0m | - | - | - | - |  |
 | Wallpaper Engine - Editor Extensions | 1790230 | 0h 0m | - | - | - | - |  |
