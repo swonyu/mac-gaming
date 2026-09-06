@@ -14,6 +14,9 @@ by_name = {g['name'].lower(): g for g in awacy}
 gfn_ids = {m.group(1) for g in gfn for m in [re.search(r'/app/(\d+)', g.get('steamUrl') or '')] if m}
 KERNEL = {'Easy Anti-Cheat', 'BattlEye', 'nProtect GameGuard', 'XIGNCODE3', 'Vanguard', 'Ricochet', 'EA anticheat', 'FACEIT',
           'Anti-Cheat Expert', 'Nexon Game Security', 'Arkos', 'X-Trap', 'PunkBuster', 'NetEase Game Security', 'mhyprot2', 'Denuvo Anti-Cheat'}
+# Steam's store API tags these as type=game but they aren't things to "get working" — Lepton is Valve's own
+# Android compat layer (not a Windows app at all), the rest are utilities/benchmarks with no gameplay.
+NOT_A_GAME = {'3029110', '1278480', '229950', '464170', '524390', '1840', '250820', '613220'}
 # CrossOver 26 supported anti-cheat titles (filled from research; appid -> note)
 cx_ac_ok = {k: v for k, v in cx.items() if v.get('anticheat_supported')}
 rows = []
@@ -23,7 +26,7 @@ for aid, v in names.items():
     kern = [a for a in acs if a in KERNEL]
     pt = owned.get(aid, {}).get('playtime_min', 0)
     r = cx.get(aid, {}); res = results.get(aid, {})
-    if typ in ('dlc', 'music', 'video', 'application', 'tool') or typ not in ('game', 'demo'):
+    if typ in ('dlc', 'music', 'video', 'application', 'tool') or typ not in ('game', 'demo') or aid in NOT_A_GAME:
         bucket = 'Tools / DLC / non-game'
     elif p.get('mac'):
         bucket = 'Native macOS'
@@ -31,12 +34,12 @@ for aid, v in names.items():
         bucket = 'Confirmed working here'
     elif kern and aid not in cx_ac_ok and not res.get('status') == 'works':
         bucket = 'Kernel anti-cheat (blocked online)'
-    elif r.get('rating') in ('Runs great', 'Runs well', 'Runs') or res.get('status') == 'works':
-        bucket = 'Should work well'
     elif r.get('rating') in ('Unplayable', 'Does not run', 'Broken'):
         bucket = 'Known broken'
     elif r.get('tweaks'):
         bucket = 'Works with tweaks'
+    elif r.get('rating') in ('Runs great', 'Runs well', 'Runs') or res.get('status') == 'works':
+        bucket = 'Should work well'
     else:
         bucket = 'Unknown / untested'
     rows.append(dict(bucket=bucket, pt=pt, aid=aid, name=n, ac=', '.join(acs) or '-', gfn='yes' if aid in gfn_ids else '-',
