@@ -23,7 +23,13 @@ p, backend = sys.argv[1], sys.argv[2]
 s = open(p).read()
 line = f'"CX_GRAPHICS_BACKEND" = "{backend}"'
 pat = re.compile(r'^"CX_GRAPHICS_BACKEND"\s*=\s*".*"$', re.M)
-s = pat.sub(line, s) if pat.search(s) else s.replace('[EnvironmentVariables]', '[EnvironmentVariables]\n' + line, 1)
+if pat.search(s):
+    s = pat.sub(line, s)
+elif '[EnvironmentVariables]' in s:
+    s = s.replace('[EnvironmentVariables]', '[EnvironmentVariables]\n' + line, 1)
+else:
+    # fresh bottle: the section header itself doesn't exist yet either
+    s = s.rstrip('\n') + '\n\n[EnvironmentVariables]\n' + line + '\n'
 open(p, 'w').write(s)
 print(f"renderer set to {backend}")
 EOF
