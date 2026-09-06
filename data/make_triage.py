@@ -67,8 +67,9 @@ for b in order:
     sub = [r for r in rows if r['bucket'] == b]
     if not sub: continue
     L += [f'## {b} ({len(sub)})', '', '| Game | AppID | Played | Anti-cheat | CrossOver rating | Renderer | Cloud (GFN) | Notes |', '|---|---|---|---|---|---|---|---|']
+    esc = lambda s: str(s).replace('|', '\\|').replace('\n', ' ')  # keep free-text fields from corrupting the markdown table
     for r in sub:
-        L.append(f"| {r['name']} | {r['aid']} | {r['pt']//60}h {r['pt']%60}m | {r['ac']} | {r['rating']} | {r['renderer']} | {r['gfn']} | {r['note']} |")
+        L.append(f"| {esc(r['name'])} | {r['aid']} | {r['pt']//60}h {r['pt']%60}m | {esc(r['ac'])} | {esc(r['rating'])} | {esc(r['renderer'])} | {r['gfn']} | {esc(r['note'])} |")
     L.append('')
 open(OUT, 'w').write('\n'.join(L))
 print('wrote', os.path.abspath(OUT), '| games', len(games), '| counts', counts)
