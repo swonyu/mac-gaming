@@ -86,7 +86,9 @@ Measured with the same synthetic navigation harness (Library and Downloads pages
 
 ## 6. Library map
 
-See `library-triage.md` (46 games found in the local client cache, profile is private). Now: 1 confirmed working, 9 native macOS, 6 rated working by CrossOver's database, 23 untested, 1 known broken (Overwatch 2), 6 blocked online by kernel anti-cheat.
+See `library-triage.md` (38 games found in the local client cache, profile is private; 2 more entries in the raw list — Lepton and Smart Game Booster — aren't real games and are excluded). Compatibility researched for every game found, not just the ones tried here: 1 confirmed working (Elden Ring), 9 native macOS, 8 rated working by CrossOver's database, 1 rated "works with tweaks" (Sons Of The Forest — DXMT+FSR, not D3DMetal), 12 genuinely untested anywhere (no CrossOver or community data exists), 1 known broken (Overwatch 2), 6 blocked online by kernel anti-cheat (one of those, Paragon: The Overprime, is also a dead game — its servers shut down in 2024).
+
+**To try any game with its best-known settings:** if its `library-triage.md` row names a renderer other than D3DMetal (for example Yu-Gi-Oh! Master Duel needs DXVK, Sons Of The Forest needs DXMT), switch to it first with `./switch-renderer.sh dxvk 1449850` (or `dxmt`, `dxvk`, `wined3d`) — this restarts Steam under that renderer and launches the game. Otherwise just `./launch-game.sh <AppID>`; D3DMetal is the default and is what CrossOver's own database recommends for most titles. If a game shows a black screen or crashes, that's the standard cue to try the next renderer down the same list.
 
 ## 7. Uninstall / rollback
 
