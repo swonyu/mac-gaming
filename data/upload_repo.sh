@@ -15,7 +15,7 @@ put() { # put <local file> <repo path>
   fi
 }
 cd "$ROOT" || exit 1
-for f in README.md MAC-GAMING-SETUP.md library-triage.md launch-game.sh troubleshoot.sh INSTALL-LOG.md HANDOFF.md; do [[ -f "$f" ]] && put "$f" "$f"; done
+for f in README.md MAC-GAMING-SETUP.md library-triage.md launch-game.sh switch-renderer.sh troubleshoot.sh INSTALL-LOG.md HANDOFF.md; do [[ -f "$f" ]] && put "$f" "$f"; done
 for f in data/make_triage.py data/owned_library.py data/extract_library.py data/resolve_names.py data/upload_repo.sh data/cx_ratings.json data/results.json data/names.json data/owned.json data/library.json data/owned_ids.txt data/lc_ids.txt data/sc_ids.txt; do [[ -f "$f" ]] && put "$f" "$f"; done
 printf '%s\n' 'data/*.zip' 'data/*.html' 'data/awacy.json' 'data/gfn.json' 'data/games-*.xml' 'data/*.log' 'logs/' '*.bak-*' > /tmp/mac-gaming.gitignore; put /tmp/mac-gaming.gitignore .gitignore
 cd "$MERLOT" || exit 1
