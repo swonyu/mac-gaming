@@ -62,7 +62,10 @@ Applied 2026-09-06 11:25 +03 with Steam closed, all reversible:
 - Registry `HKCU\Software\Valve\Steam`: `GPUAccelWebViewsV3=0`, `H264HWAccel=0`, `SmoothScrollWebViews=0` (DWORD). Revert: delete the values with `reg delete` inside the bottle.
 - Registry `HKCU\Software\Wine\Mac Driver`: `UsePreciseScrolling=n` (line-based scroll events instead of pixel-precise floods). Revert: delete the value.
 - Steam `userdata/1130251896/config/localconfig.vdf` under `UserLocalConfigStore/Software/Valve/Steam`: `LibraryLowPerfMode=1`, `LibraryLowBandwidthMode=1`, `LibraryDisableCommunityContent=1` (Steam's own "Low Performance Mode", no animations or community art in the Library). Backup kept next to the file (`localconfig.vdf.bak-HHMM`). Revert: set them to 0 in Steam's Settings, Library.
-- Not changeable: CrossOver forces the web UI to software rendering (`--disable-gpu`), so the client will never match the native Steam app; games are unaffected.
+- Owner asked for Low Performance Mode OFF (2026-09-06 11:40 +03): `LibraryLowPerfMode`, `LibraryLowBandwidthMode`, `LibraryDisableCommunityContent` are back to 0. The registry values above stay.
+- Not changeable: the web UI runs software-rendered. The trailing `--no-sandbox --in-process-gpu --disable-gpu` on steamwebhelper.exe is added by the Steam client itself when it recognises CrossOver (the text exists nowhere in CrossOver 26.3's bundle, and Steam's own `-cef-force-gpu` switch leaves it in place). Tested 11:41: `-cef-force-gpu` also raised CPU during navigation to 532 to 617% of a core, so never use it.
+- Steam auto-updates: an optional 16 GB ELDEN RING update started by itself at 11:43 (13.9 GB done before it was stopped). Elden Ring is now set to "update only when I launch it" (`AutoUpdateBehavior=1` in its appmanifest) and Steam's auto-update window is restricted to 03:00 to 04:00 in localconfig. The remaining part of that update downloads the next time the game is launched.
+- Desktop shortcut: `~/Desktop/Steam (CrossOver).app` (AppleScript wrapper around `launch-game.sh`, icon extracted from steam.exe).
 
 Measured with the same synthetic navigation harness (Library and Downloads pages, 6 navigations per run, first repaint after each command):
 
