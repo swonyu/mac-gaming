@@ -1,6 +1,8 @@
 #!/bin/bash
 # upload_repo.sh — push the mac-gaming project to the private GitHub repo via the contents API (no git needed;
-# the system git is blocked until the Xcode licence is accepted). Re-runnable: updates files that already exist.
+# the system git is blocked until the Xcode licence is accepted). Re-runnable: adds new files, updates changed ones.
+# It does NOT delete anything on GitHub for a file removed locally — if you delete a file here, delete it on
+# GitHub too (gh api -X DELETE repos/OWNER/REPO/contents/PATH -f message=... -f sha=$(gh api .../contents/PATH --jq .sha)).
 # Usage: ./data/upload_repo.sh [owner/repo]
 set -uo pipefail
 REPO="${1:-swonyu/mac-gaming}"; GH=/opt/homebrew/bin/gh; ROOT="$HOME/mac-gaming"; MERLOT="$HOME/macos-wine-steam"
