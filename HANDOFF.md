@@ -68,3 +68,7 @@ Ask before every install/download/sudo (show exact command); never touch anti-ch
 - Baseline medians 120/55/78 ms (n=6 each), ~100% core during burst. Store pages: server TTFB 0.45-0.57 s (v4≈v6, IPv6 OK), first repaint 100-440 ms after click; rest is page content + software video decode. Suggested user action: store account preference "Autoplay videos" off.
 - Mac: powermode 2 (High Power) already on, AC. No overclocking on Apple Silicon.
 - Verdict recorded in MAC-GAMING-SETUP.md 5b: client at practical ceiling under CrossOver.
+
+## 12:20 +03 — "improve the app more" round 4
+- Extra CEF windows identified: Steam "Special Offers" ad popup (706x830) reopens each start (account notification preference, cached in localconfig CachedNotificationPreferences — server-authoritative, not settable locally); Friends list (300x650) restores if left open. Owner action: Settings > Notifications > Special offers = Don't notify; close Friends list.
+- Idle CPU ~2% total; display refresh not reported by system_profiler; no further local levers. Client declared at ceiling (documented).
