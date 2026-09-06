@@ -61,3 +61,10 @@ Ask before every install/download/sudo (show exact command); never touch anti-ch
 - GPU-rendered Steam UI is closed by Valve: the trailing "--no-sandbox --in-process-gpu --disable-gpu" is added by the Steam client when it detects CrossOver (text exists nowhere in CrossOver 26.3's bundle; kernelbase.dll table only exists in the older Sikarugir CX24 engine); Steam's -cef-force-gpu leaves it and costs 532-617% CPU → never use. Bottle-local kernelbase override dir ~/Library/Application Support/CrossOver/Bottles/Steam/dlloverride was created but is unused (safe to delete).
 - ELDEN RING optional 16 GB update auto-ran and completed; AutoUpdateBehavior=1 set for it; localconfig AutoUpdateWindow 03:00-04:00. Owner wants no downloads.
 - Desktop shortcut ~/Desktop/Steam (CrossOver).app (osacompile wrapper → launch-game.sh, icon from steam.exe). Steam relaunched cleanly; final harness after clean relaunch: 64 ms (n=6) and 125 ms (n=4) medians; CPU during those runs was inflated by the concurrent update download.
+
+## 12:15 +03 — "improve even more" round 3, "overclock", "loading links"
+- Vendor Steam profile in crossover.tie has no perf entries since 2025-06-05 (GPUAccelWebViews + LargeAddressAware removed); bottle matches vendor stance. Wine debug already quiet; font AA already grayscale.
+- DWriteEnable=0 tested: no gain, more CPU → reverted (value deleted). -noverifyfiles added to launch-game.sh (kept).
+- Baseline medians 120/55/78 ms (n=6 each), ~100% core during burst. Store pages: server TTFB 0.45-0.57 s (v4≈v6, IPv6 OK), first repaint 100-440 ms after click; rest is page content + software video decode. Suggested user action: store account preference "Autoplay videos" off.
+- Mac: powermode 2 (High Power) already on, AC. No overclocking on Apple Silicon.
+- Verdict recorded in MAC-GAMING-SETUP.md 5b: client at practical ceiling under CrossOver.
