@@ -9,6 +9,7 @@ Windows Steam games on a MacBook Pro M5 Max running macOS 27 "Golden Gate". Two 
 | `MAC-GAMING-SETUP.md` | specs, Golden Gate status, every install with rollback, bottle inventory, per-game results, cost recommendation |
 | `library-triage.md` | the library bucketed: native Mac, confirmed, should work, tweaks, untested, broken, kernel anti-cheat |
 | `launch-game.sh [APPID]` | start the CrossOver bottle's Steam directly (skips the CrossOver UI), optionally launching a game |
+| `switch-renderer.sh <backend> [APPID]` | change the bottle's D3D renderer (d3dmetal, dxmt, dxvk, wined3d), restart Steam, optionally launch a game — use when `library-triage.md` names a non-default renderer for a title, or when a game black-screens on D3DMetal |
 | `troubleshoot.sh` | one-shot report for support posts: OS, Rosetta, CrossOver version, bottle settings, installed games, last log |
 | `INSTALL-LOG.md` | everything installed, with the exact removal command |
 | `HANDOFF.md` | session state for the assistant that maintains this |
