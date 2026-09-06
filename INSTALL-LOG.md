@@ -7,3 +7,6 @@
 2026-09-06 11:25 +0300 CONFIG bottle Steam registry: GPUAccelWebViewsV3=0 H264HWAccel=0 SmoothScrollWebViews=0 (HKCU\Software\Valve\Steam), UsePreciseScrolling=n (HKCU\Software\Wine\Mac Driver); localconfig.vdf LibraryLowPerfMode/LibraryLowBandwidthMode/LibraryDisableCommunityContent=1 (backup localconfig.vdf.bak-*). Revert: reg delete / set to 0 in Steam settings
 2026-09-06 11:46 +0300 CONFIG Steam: ELDEN RING AutoUpdateBehavior=1 (update only on launch), auto-update window 03:00-04:00; revert in Steam settings
 2026-09-06 12:11 +0300 TESTED DWriteEnable=0 (GDI text): no gain, higher CPU -> reverted. launch-game.sh now passes -noverifyfiles (startup skips file verification; remove the flag to restore)
+2026-09-06 12:53 +0300 PATCH ELDEN RING eldenring.exe: frame tick 1/60->1/120 + 60Hz display lock zeroed (same bytes as uberhalit FPS unlocker); original at Game/eldenring.exe.orig-60fps. Revert: copy it back, or Steam > Verify integrity
+2026-09-06 13:07 +0300 INSTALL EldenRingFPSUnlockAndMore_v1.1.0.0.exe (402944 bytes) from github.com/uberhalit/EldenRingFpsUnlockAndMore official release 1.1.0.0, placed in ELDEN RING/Game/FpsUnlock/. RAM-only patcher, no game files modified. Revert: delete the FpsUnlock folder
+2026-09-06 13:21 +0300 REMOVED EldenRingFPSUnlockAndMore_v1.1.0.0.exe and FpsUnlock/ folder — owner dropped the 120fps unlock attempt
