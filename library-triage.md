@@ -1,6 +1,6 @@
 # Library triage — living compatibility map
 
-Updated 2026-09-06 13:36 +0300. Source of truth for what to try next. Buckets are re-derived by `data/make_triage.py`; per-game test results live in `data/results.json`.
+Updated 2026-09-06 13:44 +0300. Source of truth for what to try next. Buckets are re-derived by `data/make_triage.py`; per-game test results live in `data/results.json`.
 
 **Library found locally: 145 apps (38 games/demos, 107 tools/DLC).** The Steam profile is private and there is no Web API key, so this is the set the signed-in client cached (library cache + playtime); titles never opened in the client may be missing. Paste a fuller list into `data/owned_ids.txt` and re-run to extend.
 
