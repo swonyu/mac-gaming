@@ -1,0 +1,19 @@
+{
+  "1245620": {"rating": "Runs", "renderer": "D3DMetal", "note": "CodeWeavers: runs with D3DMetal; launches with EAC disabled = offline only. Source codeweavers.com/compatibility/crossover/elden-ring (search snippet, medium confidence)"},
+  "2767030": {"rating": "Runs well", "renderer": "-", "anticheat_supported": true, "note": "NetEase anti-cheat currently tolerates CrossOver ('happy accident' per CodeWeavers, not guaranteed); bans reversed Jan 2025"},
+  "990080": {"rating": "Runs well", "renderer": "D3DMetal", "note": "60 fps reported on macOS 26 with Metal 4 + GPTK 3.0 (Notebookcheck)"},
+  "1085660": {"rating": "Unplayable", "renderer": "-", "note": "BattlEye: 'not compatible with Wine or CrossOver' (CodeWeavers page); online blocked"},
+  "730": {"rating": "Runs", "renderer": "D3DMetal or DXMT", "note": "Community: playable online; D3DMetal faster start but stutters in fights, DXMT stutters first rounds; VAC status not documented"},
+  "2357570": {"rating": "Broken", "renderer": "-", "note": "Broken after a Blizzard update; needs unofficial community patch (MoltenVK/DXVK) — not supported"},
+  "1326470": {"rating": "Runs", "renderer": "DXMT + FSR", "tweaks": true, "note": "Mixed reports (M2 Pro: 15-25 fps with glitches); CodeWeavers users recommend DXMT+FSR over D3DMetal"},
+  "2358720": {"rating": "Runs well", "renderer": "D3DMetal", "note": "Needs GPTK 2.0+ (26.x ships 3.0); 60 fps on macOS 26 reported"},
+  "1374490": {"rating": "Runs", "renderer": "-", "note": "Community video only, no CodeWeavers badge captured (low confidence)"},
+  "440": {"rating": "-", "renderer": "-", "note": "Valve dropped the native Mac build; needs CrossOver now, verdict unverified"},
+  "3164500": {"rating": "-", "renderer": "-", "note": "No CrossOver data found; Unity title, no anti-cheat — try it"},
+  "814380": {"rating": "-", "renderer": "-", "note": "CodeWeavers page exists, rating not captured; FromSoftware DX11 title, D3DMetal likely"},
+  "534380": {"rating": "-", "renderer": "-", "note": "CodeWeavers page exists, few testers"},
+  "438100": {"rating": "-", "renderer": "-", "note": "EAC; old CodeWeavers rating flagged stale"},
+  "1172620": {"rating": "-", "renderer": "-", "note": "EAC; playable via Xbox Cloud Gaming (trueachievements, Sept 2026)"},
+  "223850": {"rating": "-", "renderer": "-", "note": "Store lists a Mac build; CrossOver rating for modern 3DMark unverified"},
+  "311210": {"rating": "-", "renderer": "-", "note": "Native Mac build (Aspyr) exists; maintenance status unverified"}
+}
