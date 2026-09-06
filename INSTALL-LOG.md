@@ -6,3 +6,4 @@
 2026-09-06 11:12 +0300 RESULT ELDEN RING (1245620) runs in CrossOver 26.3 bottle 'Steam' with D3DMetal 3.0 at 3024x1964, 60 fps cap, 8.13 ms GPU (HUD), offline mode
 2026-09-06 11:25 +0300 CONFIG bottle Steam registry: GPUAccelWebViewsV3=0 H264HWAccel=0 SmoothScrollWebViews=0 (HKCU\Software\Valve\Steam), UsePreciseScrolling=n (HKCU\Software\Wine\Mac Driver); localconfig.vdf LibraryLowPerfMode/LibraryLowBandwidthMode/LibraryDisableCommunityContent=1 (backup localconfig.vdf.bak-*). Revert: reg delete / set to 0 in Steam settings
 2026-09-06 11:46 +0300 CONFIG Steam: ELDEN RING AutoUpdateBehavior=1 (update only on launch), auto-update window 03:00-04:00; revert in Steam settings
+2026-09-06 12:11 +0300 TESTED DWriteEnable=0 (GDI text): no gain, higher CPU -> reverted. launch-game.sh now passes -noverifyfiles (startup skips file verification; remove the flag to restore)
