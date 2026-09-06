@@ -13,7 +13,7 @@ Windows Steam games on a MacBook Pro M5 Max running macOS 27 "Golden Gate". Two 
 | `troubleshoot.sh` | one-shot report for support posts: OS, Rosetta, CrossOver version, bottle settings, installed games, last log |
 | `INSTALL-LOG.md` | everything installed, with the exact removal command |
 | `HANDOFF.md` | session state for the assistant that maintains this |
-| `data/` | library extraction and triage scripts plus the resolved library data (`make_triage.py` regenerates the map) |
+| `data/` | library extraction and triage scripts plus the resolved library data (`make_triage.py` regenerates the map; `owned_library.py` + `resolve_names.py` rebuild the raw library from scratch) |
 | `merlot/` | the free fallback: patched copy of [ByMedion/macos-wine-steam](https://github.com/ByMedion/macos-wine-steam) that uses a CrossOver-lineage engine (stock Wine cannot draw Steam's UI on macOS) |
 
 ## The two paths
