@@ -1,0 +1,8 @@
+data/*.zip
+data/*.html
+data/awacy.json
+data/gfn.json
+data/games-*.xml
+data/*.log
+logs/
+*.bak-*
