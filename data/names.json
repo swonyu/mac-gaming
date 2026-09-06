@@ -1,0 +1,2009 @@
+{
+"480": {
+"name": null,
+"note": "no store page"
+},
+"730": {
+"name": "Counter-Strike 2",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": true
+},
+"categories": [
+"Multi-player",
+"Cross-Platform Multiplayer",
+"Steam Trading Cards",
+"Steam Workshop",
+"Steam Workshop",
+"In-App Purchases",
+"Adjustable Text Size",
+"Camera Comfort",
+"Color Alternatives",
+"Custom Volume Controls",
+"Playable without Timed Input",
+"Stereo Sound",
+"Surround Sound",
+"Valve Anti-Cheat enabled",
+"Stats",
+"Remote Play on Phone",
+"Remote Play on Tablet",
+"Remote Play on TV",
+"Steam Timeline"
+],
+"genres": [
+"Action",
+"Free To Play"
+],
+"controller": null
+},
+"10090": {
+"name": "Call of Duty: World at War",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Family Sharing"
+],
+"genres": [
+"Action"
+],
+"controller": null
+},
+"223850": {
+"name": "3DMark",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"231350": {
+"name": "3DMark Demo",
+"type": "demo",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Game demo",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"311210": {
+"name": "Call of Duty\u00ae: Black Ops III",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Shared/Split Screen",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Steam Workshop",
+"Valve Anti-Cheat enabled",
+"Steam Leaderboards",
+"Remote Play on Phone",
+"Remote Play on Tablet",
+"Remote Play on TV",
+"Remote Play Together",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure"
+],
+"controller": "full"
+},
+"381210": {
+"name": "Dead by Daylight",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Color Alternatives",
+"Custom Volume Controls",
+"Steam Input API Support",
+"Stereo Sound",
+"Subtitle Options",
+"Surround Sound",
+"Steam Cloud",
+"Remote Play on Phone",
+"Remote Play on Tablet",
+"Remote Play on TV",
+"Family Sharing"
+],
+"genres": [
+"Action"
+],
+"controller": "full"
+},
+"431960": {
+"name": "Wallpaper Engine",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Workshop",
+"Steam Workshop",
+"Includes level editor"
+],
+"genres": [
+"Casual",
+"Indie",
+"Animation & Modeling",
+"Design & Illustration",
+"Photo Editing",
+"Utilities"
+],
+"controller": null
+},
+"438100": {
+"name": "VRChat",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"MMO",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Cross-Platform Multiplayer",
+"Full controller support",
+"Tracked Controller Support",
+"VR Supported",
+"In-App Purchases",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Family Sharing"
+],
+"genres": [
+"Adventure",
+"Casual",
+"Massively Multiplayer",
+"Simulation",
+"Sports",
+"Free To Play",
+"Early Access"
+],
+"controller": "full"
+},
+"524390": {
+"name": "PCMark 10",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"534380": {
+"name": "Dying Light 2 Stay Human: Reloaded Edition",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"In-App Purchases",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Steam Cloud",
+"Remote Play on TV",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"RPG"
+],
+"controller": "full"
+},
+"814380": {
+"name": "Sekiro\u2122: Shadows Die Twice - GOTY Edition",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Steam Cloud",
+"Remote Play on Tablet",
+"Remote Play on TV",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure"
+],
+"controller": "full"
+},
+"960090": {
+"name": "Bloons TD 6",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"In-App Purchases",
+"Remote Play on Phone",
+"Remote Play on Tablet",
+"Family Sharing"
+],
+"genres": [
+"Strategy"
+],
+"controller": null
+},
+"990080": {
+"name": "Hogwarts Legacy",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Steam Achievements",
+"Full controller support",
+"In-App Purchases",
+"Adjustable Text Size",
+"Camera Comfort",
+"Custom Volume Controls",
+"Narrated Game Menus",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Save Anytime",
+"Stereo Sound",
+"Surround Sound",
+"Steam Cloud",
+"HDR available",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"RPG"
+],
+"controller": "full"
+},
+"1085660": {
+"name": "Destiny 2",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"In-App Purchases",
+"Color Alternatives",
+"Custom Volume Controls",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"Subtitle Options",
+"Partial Controller Support",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"Free To Play"
+],
+"controller": null
+},
+"1172620": {
+"name": "Sea of Thieves: 2026 Edition",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Steam Trading Cards",
+"In-App Purchases",
+"Partial Controller Support",
+"Remote Play on Phone",
+"Remote Play on Tablet",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure"
+],
+"controller": null
+},
+"1245620": {
+"name": "ELDEN RING",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Camera Comfort",
+"Custom Volume Controls",
+"Playable without Timed Input",
+"Save Anytime",
+"Stereo Sound",
+"Surround Sound",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"RPG"
+],
+"controller": "full"
+},
+"1278480": {
+"name": "Smart Game Booster",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1326470": {
+"name": "Sons Of The Forest",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"Full controller support",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"Indie",
+"Simulation"
+],
+"controller": "full"
+},
+"1374490": {
+"name": "RuneScape: Dragonwilds",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Adjustable Text Size",
+"Custom Volume Controls",
+"Save Anytime",
+"Stereo Sound",
+"Partial Controller Support",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"RPG",
+"Early Access"
+],
+"controller": null
+},
+"1404210": {
+"name": "Red Dead Online",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"In-App Purchases",
+"Partial Controller Support",
+"Remote Play on Phone",
+"Remote Play on Tablet"
+],
+"genres": [
+"Action",
+"Adventure"
+],
+"controller": null
+},
+"1531430": {
+"name": "Paragon: The Overprime",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"In-App Purchases",
+"Stats",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Sports",
+"Strategy",
+"Free To Play",
+"Early Access"
+],
+"controller": null
+},
+"1604030": {
+"name": "V Rising",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"PvP",
+"Online PvP",
+"LAN PvP",
+"Co-op",
+"Online Co-op",
+"LAN Co-op",
+"Steam Achievements",
+"Camera Comfort",
+"Custom Volume Controls",
+"Adjustable Difficulty",
+"Playable without Timed Input",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Save Anytime",
+"Stereo Sound",
+"Subtitle Options",
+"Surround Sound",
+"Partial Controller Support",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"Massively Multiplayer"
+],
+"controller": null
+},
+"1721470": {
+"name": "Poppy Playtime",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"Indie"
+],
+"controller": null
+},
+"1782210": {
+"name": "Crab Game",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": true
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Casual",
+"Free To Play",
+"Indie",
+"Racing"
+],
+"controller": null
+},
+"1977530": {
+"name": "One-armed cook",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"Steam Cloud",
+"Stats",
+"Family Sharing"
+],
+"genres": [
+"Casual",
+"Simulation",
+"Free To Play"
+],
+"controller": null
+},
+"2129530": {
+"name": "REANIMAL",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Shared/Split Screen Co-op",
+"Shared/Split Screen",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Custom Volume Controls",
+"Gamepad Recommended",
+"Playable without Timed Input",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"Stereo Sound",
+"Surround Sound",
+"Steam Cloud",
+"Remote Play Together",
+"Family Sharing"
+],
+"genres": [
+"Adventure"
+],
+"controller": "full"
+},
+"2140510": {
+"name": "Town of Salem 2",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Steam Achievements",
+"In-App Purchases",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Casual",
+"RPG",
+"Strategy",
+"Free To Play"
+],
+"controller": null
+},
+"2357570": {
+"name": "Overwatch\u00ae",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Full controller support",
+"In-App Purchases",
+"Adjustable Text Size",
+"Camera Comfort",
+"Chat Speech-to-text",
+"Chat Text-to-speech",
+"Color Alternatives",
+"Custom Volume Controls",
+"Playable without Timed Input",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Stereo Sound",
+"Subtitle Options",
+"Surround Sound"
+],
+"genres": [
+"Action",
+"Free To Play"
+],
+"controller": "full"
+},
+"2358720": {
+"name": "Black Myth: Wukong",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Gamepad Recommended",
+"Playable without Timed Input",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Stereo Sound",
+"Surround Sound",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"RPG"
+],
+"controller": "full"
+},
+"2767030": {
+"name": "Marvel Rivals",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Full controller support",
+"In-App Purchases",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Free To Play"
+],
+"controller": "full"
+},
+"2780980": {
+"name": "LOCKDOWN Protocol",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Steam Trading Cards",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Casual",
+"Indie",
+"Strategy"
+],
+"controller": null
+},
+"3164500": {
+"name": "Schedule I",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Online Co-op",
+"Steam Achievements",
+"Full controller support",
+"Adjustable Text Size",
+"Camera Comfort",
+"Custom Volume Controls",
+"Playable without Timed Input",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Save Anytime",
+"Stereo Sound",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Indie",
+"Simulation",
+"Strategy",
+"Early Access"
+],
+"controller": "full"
+},
+"211": {
+"name": null,
+"note": "no store page"
+},
+"219": {
+"name": "Half-Life 2: Demo",
+"type": "demo",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Game demo"
+],
+"genres": [
+"Action"
+],
+"controller": null
+},
+"410": {
+"name": "Portal: First Slice",
+"type": "demo",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Game demo",
+"Captions available",
+"Partial Controller Support"
+],
+"genres": [
+"Action"
+],
+"controller": null
+},
+"440": {
+"name": "Team Fortress 2",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": true
+},
+"categories": [
+"Multi-player",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Steam Trading Cards",
+"Captions available",
+"Steam Workshop",
+"In-App Purchases",
+"Camera Comfort",
+"Color Alternatives",
+"Custom Volume Controls",
+"Stereo Sound",
+"Surround Sound",
+"Partial Controller Support",
+"Valve Anti-Cheat enabled",
+"Stats",
+"Includes level editor",
+"Commentary available",
+"Remote Play on Phone",
+"Remote Play on Tablet"
+],
+"genres": [
+"Action",
+"Free To Play"
+],
+"controller": null
+},
+"570": {
+"name": "Dota 2",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": true
+},
+"categories": [
+"Multi-player",
+"Co-op",
+"Steam Trading Cards",
+"Steam Workshop",
+"SteamVR Collectibles",
+"In-App Purchases",
+"Camera Comfort",
+"Color Alternatives",
+"Custom Volume Controls",
+"Valve Anti-Cheat enabled",
+"Steam Timeline"
+],
+"genres": [
+"Action",
+"Strategy",
+"Free To Play"
+],
+"controller": null
+},
+"635": {
+"name": null,
+"note": "no store page"
+},
+"640": {
+"name": null,
+"note": "no store page"
+},
+"745": {
+"name": null,
+"note": "no store page"
+},
+"1007": {
+"name": null,
+"note": "no store page"
+},
+"1840": {
+"name": "Source Filmmaker",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Steam Workshop"
+],
+"genres": [
+"Animation & Modeling",
+"Video Production"
+],
+"controller": null
+},
+"4270": {
+"name": null,
+"note": "no store page"
+},
+"13180": {
+"name": null,
+"note": "no store page"
+},
+"17505": {
+"name": null,
+"note": "no store page"
+},
+"17515": {
+"name": null,
+"note": "no store page"
+},
+"17525": {
+"name": null,
+"note": "no store page"
+},
+"18010": {
+"name": "Precipice of Darkness, Episode One Demo",
+"type": "demo",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Game demo"
+],
+"genres": [
+"Adventure",
+"RPG"
+],
+"controller": null
+},
+"18030": {
+"name": "Precipice of Darkness, Episode Two Demo",
+"type": "demo",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Game demo"
+],
+"genres": [
+"Adventure",
+"RPG"
+],
+"controller": null
+},
+"22150": {
+"name": "Europa Universalis III Complete Demo",
+"type": "demo",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Game demo"
+],
+"genres": [
+"Strategy"
+],
+"controller": null
+},
+"34120": {
+"name": null,
+"note": "no store page"
+},
+"41005": {
+"name": null,
+"note": "no store page"
+},
+"42300": {
+"name": null,
+"note": "no store page"
+},
+"42750": {
+"name": null,
+"note": "no store page"
+},
+"63220": {
+"name": null,
+"note": "no store page"
+},
+"70010": {
+"name": null,
+"note": "no store page"
+},
+"72310": {
+"name": null,
+"note": "no store page"
+},
+"72780": {
+"name": null,
+"note": "no store page"
+},
+"223350": {
+"name": null,
+"note": "no store page"
+},
+"228980": {
+"name": null,
+"note": "no store page"
+},
+"229950": {
+"name": "Resident Evil 6 Benchmark Tool",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Family Sharing"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"230030": {
+"name": null,
+"note": "no store page"
+},
+"231390": {
+"name": null,
+"note": "no store page"
+},
+"233780": {
+"name": null,
+"note": "no store page"
+},
+"243730": {
+"name": null,
+"note": "no store page"
+},
+"243750": {
+"name": null,
+"note": "no store page"
+},
+"250820": {
+"name": "SteamVR",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Tracked Controller Support",
+"VR Support",
+"Steam Workshop",
+"SteamVR Collectibles",
+"Family Sharing"
+],
+"genres": [],
+"controller": null
+},
+"255470": {
+"name": null,
+"note": "no store page"
+},
+"261140": {
+"name": null,
+"note": "no store page"
+},
+"294420": {
+"name": null,
+"note": "no store page"
+},
+"302530": {
+"name": null,
+"note": "no store page"
+},
+"302550": {
+"name": null,
+"note": "no store page"
+},
+"332850": {
+"name": null,
+"note": "no store page"
+},
+"366849": {
+"name": "Call of Duty\u00ae: Black Ops III - The Giant Zombies Map",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Downloadable Content",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Steam Leaderboards",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure"
+],
+"controller": "full"
+},
+"374980": {
+"name": null,
+"note": "no store page"
+},
+"381690": {
+"name": null,
+"note": "no store page"
+},
+"382030": {
+"name": null,
+"note": "no store page"
+},
+"393480": {
+"name": "3DMark Sky Diver benchmark",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"402290": {
+"name": "3DMark Fire Strike benchmarks",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"406950": {
+"name": "3DMark Ice Storm benchmarks",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"406960": {
+"name": "3DMark Cloud Gate benchmark",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"407080": {
+"name": "3DMark API Overhead feature test",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"428810": {
+"name": "VRMark Preview",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"VR Supported",
+"VR Support",
+"Partial Controller Support"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"455130": {
+"name": null,
+"note": "no store page"
+},
+"464170": {
+"name": "VRMark",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"VR Supported"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"496101": {
+"name": "3DMark Time Spy upgrade",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"496102": {
+"name": "3DMark Night Raid benchmark",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"496103": {
+"name": "3DMark Port Royal upgrade",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"496104": {
+"name": "3DMark PCI Express feature test",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"545990": {
+"name": null,
+"note": "no store page"
+},
+"550140": {
+"name": null,
+"note": "no store page"
+},
+"556150": {
+"name": "3DMark VRS feature test",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"568880": {
+"name": null,
+"note": "no store page"
+},
+"581450": {
+"name": "Call of Duty\u00ae: Black Ops III - Zombies Chronicles",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"Co-op",
+"Downloadable Content",
+"Steam Achievements",
+"Full controller support",
+"Steam Trading Cards",
+"Steam Workshop",
+"Valve Anti-Cheat enabled",
+"Steam Leaderboards",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure"
+],
+"controller": "full"
+},
+"613220": {
+"name": "Steam 360 Video Player",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"VR Only",
+"Family Sharing"
+],
+"genres": [],
+"controller": null
+},
+"858280": {
+"name": null,
+"note": "no store page"
+},
+"944490": {
+"name": null,
+"note": "no store page"
+},
+"961940": {
+"name": null,
+"note": "no store page"
+},
+"1042420": {
+"name": null,
+"note": "no store page"
+},
+"1054830": {
+"name": null,
+"note": "no store page"
+},
+"1070560": {
+"name": null,
+"note": "no store page"
+},
+"1070910": {
+"name": null,
+"note": "no store page"
+},
+"1113280": {
+"name": null,
+"note": "no store page"
+},
+"1161040": {
+"name": null,
+"note": "no store page"
+},
+"1245040": {
+"name": null,
+"note": "no store page"
+},
+"1276160": {
+"name": "3DMark Wild Life benchmarks",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1289950": {
+"name": "Smart Game Booster PRO",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1322770": {
+"name": "3DMark Storage Benchmark",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1391110": {
+"name": null,
+"note": "no store page"
+},
+"1420170": {
+"name": null,
+"note": "no store page"
+},
+"1449850": {
+"name": "Yu-Gi-Oh! Master Duel",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Multi-player",
+"PvP",
+"Online PvP",
+"Cross-Platform Multiplayer",
+"Steam Achievements",
+"Steam Trading Cards",
+"In-App Purchases",
+"Family Sharing"
+],
+"genres": [
+"Simulation",
+"Strategy",
+"Free To Play"
+],
+"controller": null
+},
+"1493710": {
+"name": null,
+"note": "no store page"
+},
+"1498800": {
+"name": "3DMark Mesh Shader feature test",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1498801": {
+"name": "3DMark Sampler Feedback feature test",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1580130": {
+"name": null,
+"note": "no store page"
+},
+"1628350": {
+"name": null,
+"note": "no store page"
+},
+"1654370": {
+"name": "3DMark CPU Profile benchmarks",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"1790230": {
+"name": "Wallpaper Engine - Editor Extensions",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Workshop",
+"Steam Workshop",
+"Includes level editor"
+],
+"genres": [
+"Casual",
+"Indie",
+"Animation & Modeling",
+"Design & Illustration",
+"Photo Editing",
+"Utilities"
+],
+"controller": null
+},
+"1817490": {
+"name": "Poppy Playtime - Chapter 2",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Downloadable Content",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"Indie"
+],
+"controller": null
+},
+"1826330": {
+"name": null,
+"note": "no store page"
+},
+"1874900": {
+"name": null,
+"note": "no store page"
+},
+"1880830": {
+"name": "Hogwarts Legacy: Onyx Hippogriff Mount",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Single-player",
+"Downloadable Content",
+"Steam Achievements",
+"Full controller support",
+"In-App Purchases",
+"Steam Cloud",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Adventure",
+"RPG"
+],
+"controller": "full"
+},
+"1887720": {
+"name": null,
+"note": "no store page"
+},
+"2019730": {
+"name": "3DMark Speed Way Upgrade",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"2180100": {
+"name": null,
+"note": "no store page"
+},
+"2230260": {
+"name": null,
+"note": "no store page"
+},
+"2313300": {
+"name": "3DMark Solar Bay",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Leaderboards"
+],
+"genres": [
+"Utilities"
+],
+"controller": null
+},
+"2348590": {
+"name": null,
+"note": "no store page"
+},
+"2465200": {
+"name": null,
+"note": "no store page"
+},
+"2676230": {
+"name": "FiveM",
+"type": "advertising",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [],
+"genres": [],
+"controller": null
+},
+"2695340": {
+"name": "3DMark Steel Nomad",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Leaderboards"
+],
+"genres": [
+"Free To Play",
+"Utilities"
+],
+"controller": null
+},
+"2738040": {
+"name": null,
+"note": "no store page"
+},
+"2805730": {
+"name": null,
+"note": "no store page"
+},
+"3029110": {
+"name": "Lepton",
+"type": "game",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Family Sharing"
+],
+"genres": [],
+"controller": null
+},
+"3127680": {
+"name": null,
+"note": "no store page"
+},
+"3637470": {
+"name": "RuneScape: Dragonwilds Early Adopter Soundtrack",
+"type": "music",
+"platforms": {
+"windows": true,
+"mac": true,
+"linux": true
+},
+"categories": [],
+"genres": [],
+"controller": null
+},
+"3658110": {
+"name": null,
+"note": "no store page"
+},
+"3941790": {
+"name": "3DMark Solar Bay Extreme",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Downloadable Content",
+"Steam Achievements",
+"Steam Trading Cards",
+"Steam Leaderboards"
+],
+"genres": [
+"Free To Play",
+"Utilities"
+],
+"controller": null
+},
+"4019830": {
+"name": null,
+"note": "no store page"
+},
+"4183110": {
+"name": null,
+"note": "no store page"
+},
+"4333400": {
+"name": "RedM",
+"type": "advertising",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [],
+"genres": [],
+"controller": null
+},
+"4406010": {
+"name": "Marvel Rivals - High-Resolution Pack",
+"type": "dlc",
+"platforms": {
+"windows": true,
+"mac": false,
+"linux": false
+},
+"categories": [
+"Multi-player",
+"PvP",
+"Online PvP",
+"Co-op",
+"Online Co-op",
+"Cross-Platform Multiplayer",
+"Downloadable Content",
+"Steam Achievements",
+"Full controller support",
+"In-App Purchases",
+"DualShock Controller Support",
+"DualShock Controller Support",
+"DualSense Controller Support",
+"DualSense Controller Support",
+"Family Sharing"
+],
+"genres": [
+"Action",
+"Free To Play"
+],
+"controller": "full"
+},
+"4628710": {
+"name": null,
+"note": "no store page"
+},
+"4628740": {
+"name": null,
+"note": "no store page"
+}
+}
