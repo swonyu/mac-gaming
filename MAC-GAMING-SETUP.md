@@ -66,6 +66,15 @@ Applied 2026-09-06 11:25 +03 with Steam closed, all reversible:
 - Not changeable: the web UI runs software-rendered. The trailing `--no-sandbox --in-process-gpu --disable-gpu` on steamwebhelper.exe is added by the Steam client itself when it recognises CrossOver (the text exists nowhere in CrossOver 26.3's bundle, and Steam's own `-cef-force-gpu` switch leaves it in place). Tested 11:41: `-cef-force-gpu` also raised CPU during navigation to 532 to 617% of a core, so never use it.
 - Steam auto-updates: an optional 16 GB ELDEN RING update started by itself at 11:43 (13.9 GB done before it was stopped). Elden Ring is now set to "update only when I launch it" (`AutoUpdateBehavior=1` in its appmanifest) and Steam's auto-update window is restricted to 03:00 to 04:00 in localconfig. The remaining part of that update downloads the next time the game is launched.
 - Desktop shortcut: `~/Desktop/Steam (CrossOver).app` (AppleScript wrapper around `launch-game.sh`, icon extracted from steam.exe).
+- Round 3 (2026-09-06 12:05 to 12:15 +03), all measured with the same harness, n=6 per run:
+  - Clean baseline after the update finished: medians 120, 55, 78 ms; 94 to 106% of one core during the burst.
+  - CodeWeavers' own Steam install profile (from `share/crossover/data/crossover.tie`) no longer carries performance entries (GPU and address-space tweaks removed 2025-06-05); only font replacements and a disabled audio driver remain. Our bottle already matches the vendor stance.
+  - Wine debug output is already off in the bottle (2 log lines per session); font antialiasing is already grayscale (FontSmoothingType=1). Nothing to gain there.
+  - GDI text instead of DirectWrite (`DWriteEnable=0`): medians 105, 91, 66 ms but 135 to 220% of a core and higher idle load. Reverted.
+  - `-noverifyfiles` added to `launch-game.sh`: skips Steam's file verification at startup (23 s to main window either way here); remove the flag if you ever suspect corrupted files.
+  - Mac side: High Power energy mode already on (`pmset powermode 2`), on AC. Apple Silicon cannot be overclocked; Game Mode engages itself for fullscreen games.
+  - Links and store pages: the Steam store's server response is 0.45 to 0.57 s from this Mac over both IPv4 and IPv6 (Steam's IPv6 tests pass), and a store page starts painting 100 to 440 ms after the click. The rest is the page itself (images, autoplaying video decoded in software). The one user-side lever: Steam store account preference "Autoplay videos" off (store.steampowered.com/account/preferences), which is stored on the account, not in the client.
+  - Conclusion: the client is at its practical ceiling under CrossOver; further gains need Valve to allow GPU rendering when it detects CrossOver, or CrossOver 27's Apple-Silicon-native build (early 2027) to drop Rosetta.
 
 Measured with the same synthetic navigation harness (Library and Downloads pages, 6 navigations per run, first repaint after each command):
 
