@@ -1,7 +1,6 @@
 #!/bin/bash
 # troubleshoot.sh — collect what a CodeWeavers/r/macgaming support post needs. Usage: ./troubleshoot.sh [BOTTLE] > report.txt
 BOTTLE="${1:-Steam}"
-CX="/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin"
 BOTTLES="$HOME/Library/Application Support/CrossOver/Bottles"
 echo "=== $(date '+%Y-%m-%d %H:%M %z') troubleshoot: bottle $BOTTLE ==="
 echo "--- macOS"; sw_vers
