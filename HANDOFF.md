@@ -72,3 +72,10 @@ Ask before every install/download/sudo (show exact command); never touch anti-ch
 ## 12:20 +03 — "improve the app more" round 4
 - Extra CEF windows identified: Steam "Special Offers" ad popup (706x830) reopens each start (account notification preference, cached in localconfig CachedNotificationPreferences — server-authoritative, not settable locally); Friends list (300x650) restores if left open. Owner action: Settings > Notifications > Special offers = Don't notify; close Friends list.
 - Idle CPU ~2% total; display refresh not reported by system_profiler; no further local levers. Client declared at ceiling (documented).
+
+## 13:40 +03 — "I want all the games in the library to work but I dont wanna test every single one"
+- Dropped the FPS-unlock attempt (owner: "nvm nvm the 120 fps"); removed the downloaded EldenRingFPSUnlockAndMore_v1.1.0.0.exe and its folder — clean.
+- Interpreted the ask as: research + configure every game so it has its best shot, without downloading/testing all 46 titles myself (owner had already said no more downloads). Three Sonnet research batches filled CrossOver-database verdicts for the 22 previously-untested games (cx_ratings.json now 30 entries). Two appids (Lepton 3029110 = Valve's Android compat layer, Smart Game Booster 1278480 = Windows-only utility) reclassified out of the games count via a NOT_A_GAME set in make_triage.py.
+- New: switch-renderer.sh <d3dmetal|dxmt|dxvk|wined3d> [appid] — restarts Steam under a different bottle renderer, optionally launches a game after. Yu-Gi-Oh! Master Duel needs dxvk (rated EXCELLENT there, not D3DMetal); Sons Of The Forest needs dxmt+FSR.
+- Fixed a bucket-precedence bug in make_triage.py: a "tweaks" rating now wins over a plain "Runs" rating (Sons Of The Forest was being bucketed as plain "Should work well", losing the DXMT-not-D3DMetal warning).
+- Current triage: 38 real games, 1 confirmed (Elden Ring), 9 native, 8 should-work, 1 works-with-tweaks, 12 genuinely unknown anywhere, 1 broken (Overwatch 2), 6 kernel-anticheat-blocked (one of those, Paragon Overprime, is also a dead game — servers shut April 2024).
