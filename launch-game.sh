@@ -13,6 +13,6 @@ LOG="$HOME/mac-gaming/logs/steam-$(date +%Y%m%d-%H%M%S).log"; mkdir -p "$(dirnam
 ARGS=()
 [[ $# -ge 1 ]] && ARGS=(-applaunch "$1")
 echo "bottle: $BOTTLE"; echo "renderer: $(grep -E '^"CX_GRAPHICS_BACKEND"' "$BOTTLE_DIR/cxbottle.conf" | cut -d'"' -f4 || true)"; echo "log: $LOG"
-nohup "$CX/cxstart" --bottle "$BOTTLE" "C:/Program Files (x86)/Steam/steam.exe" ${ARGS[@]+"${ARGS[@]}"} </dev/null >"$LOG" 2>&1 &
+nohup "$CX/cxstart" --bottle "$BOTTLE" "C:/Program Files (x86)/Steam/steam.exe" -noverifyfiles ${ARGS[@]+"${ARGS[@]}"} </dev/null >"$LOG" 2>&1 &
 disown
 echo "started (pid $!). Steam keeps running after this terminal closes."
