@@ -1,19 +1,154 @@
 {
-  "1245620": {"rating": "Runs", "renderer": "D3DMetal", "note": "CodeWeavers: runs with D3DMetal; launches with EAC disabled = offline only. Source codeweavers.com/compatibility/crossover/elden-ring (search snippet, medium confidence)"},
-  "2767030": {"rating": "Runs well", "renderer": "-", "anticheat_supported": true, "note": "NetEase anti-cheat currently tolerates CrossOver ('happy accident' per CodeWeavers, not guaranteed); bans reversed Jan 2025"},
-  "990080": {"rating": "Runs well", "renderer": "D3DMetal", "note": "60 fps reported on macOS 26 with Metal 4 + GPTK 3.0 (Notebookcheck)"},
-  "1085660": {"rating": "Unplayable", "renderer": "-", "note": "BattlEye: 'not compatible with Wine or CrossOver' (CodeWeavers page); online blocked"},
-  "730": {"rating": "Runs", "renderer": "D3DMetal or DXMT", "note": "Community: playable online; D3DMetal faster start but stutters in fights, DXMT stutters first rounds; VAC status not documented"},
-  "2357570": {"rating": "Broken", "renderer": "-", "note": "Broken after a Blizzard update; needs unofficial community patch (MoltenVK/DXVK) — not supported"},
-  "1326470": {"rating": "Runs", "renderer": "DXMT + FSR", "tweaks": true, "note": "Mixed reports (M2 Pro: 15-25 fps with glitches); CodeWeavers users recommend DXMT+FSR over D3DMetal"},
-  "2358720": {"rating": "Runs well", "renderer": "D3DMetal", "note": "Needs GPTK 2.0+ (26.x ships 3.0); 60 fps on macOS 26 reported"},
-  "1374490": {"rating": "Runs", "renderer": "-", "note": "Community video only, no CodeWeavers badge captured (low confidence)"},
-  "440": {"rating": "-", "renderer": "-", "note": "Valve dropped the native Mac build; needs CrossOver now, verdict unverified"},
-  "3164500": {"rating": "-", "renderer": "-", "note": "No CrossOver data found; Unity title, no anti-cheat — try it"},
-  "814380": {"rating": "-", "renderer": "-", "note": "CodeWeavers page exists, rating not captured; FromSoftware DX11 title, D3DMetal likely"},
-  "534380": {"rating": "-", "renderer": "-", "note": "CodeWeavers page exists, few testers"},
-  "438100": {"rating": "-", "renderer": "-", "note": "EAC; old CodeWeavers rating flagged stale"},
-  "1172620": {"rating": "-", "renderer": "-", "note": "EAC; playable via Xbox Cloud Gaming (trueachievements, Sept 2026)"},
-  "223850": {"rating": "-", "renderer": "-", "note": "Store lists a Mac build; CrossOver rating for modern 3DMark unverified"},
-  "311210": {"rating": "-", "renderer": "-", "note": "Native Mac build (Aspyr) exists; maintenance status unverified"}
+ "1245620": {
+  "rating": "Runs",
+  "renderer": "D3DMetal",
+  "note": "CodeWeavers: runs with D3DMetal; launches with EAC disabled = offline only. Source codeweavers.com/compatibility/crossover/elden-ring (search snippet, medium confidence)"
+ },
+ "2767030": {
+  "rating": "Runs well",
+  "renderer": "-",
+  "anticheat_supported": true,
+  "note": "NetEase anti-cheat currently tolerates CrossOver ('happy accident' per CodeWeavers, not guaranteed); bans reversed Jan 2025"
+ },
+ "990080": {
+  "rating": "Runs well",
+  "renderer": "D3DMetal",
+  "note": "60 fps reported on macOS 26 with Metal 4 + GPTK 3.0 (Notebookcheck)"
+ },
+ "1085660": {
+  "rating": "Unplayable",
+  "renderer": "-",
+  "note": "BattlEye: 'not compatible with Wine or CrossOver' (CodeWeavers page); online blocked"
+ },
+ "730": {
+  "rating": "Runs",
+  "renderer": "D3DMetal or DXMT",
+  "note": "Community: playable online; D3DMetal faster start but stutters in fights, DXMT stutters first rounds; VAC status not documented"
+ },
+ "2357570": {
+  "rating": "Broken",
+  "renderer": "-",
+  "note": "Broken after a Blizzard update; needs unofficial community patch (MoltenVK/DXVK) \u2014 not supported"
+ },
+ "1326470": {
+  "rating": "Runs",
+  "renderer": "DXMT + FSR",
+  "tweaks": true,
+  "note": "Mixed reports (M2 Pro: 15-25 fps with glitches); CodeWeavers users recommend DXMT+FSR over D3DMetal"
+ },
+ "2358720": {
+  "rating": "Runs well",
+  "renderer": "D3DMetal",
+  "note": "Needs GPTK 2.0+ (26.x ships 3.0); 60 fps on macOS 26 reported"
+ },
+ "1374490": {
+  "rating": "Runs",
+  "renderer": "-",
+  "note": "Community video only, no CodeWeavers badge captured (low confidence)"
+ },
+ "440": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Valve dropped the native Mac build; needs CrossOver now, verdict unverified"
+ },
+ "3164500": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "No CrossOver data found; Unity title, no anti-cheat \u2014 try it"
+ },
+ "814380": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "CodeWeavers page exists, rating not captured; FromSoftware DX11 title, D3DMetal likely"
+ },
+ "534380": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "CodeWeavers page exists, few testers"
+ },
+ "438100": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "EAC; old CodeWeavers rating flagged stale"
+ },
+ "1172620": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "EAC; playable via Xbox Cloud Gaming (trueachievements, Sept 2026)"
+ },
+ "223850": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Store lists a Mac build; CrossOver rating for modern 3DMark unverified"
+ },
+ "311210": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Native Mac build (Aspyr) exists; maintenance status unverified"
+ },
+ "431960": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Wallpaper Engine: CodeWeavers has a compatibility page but the rating text isn't retrievable via search; video/web wallpaper rendering is historically the hard part under Wine. Try D3DMetal first."
+ },
+ "1404210": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Red Dead Online (via RDR2): base RDR2 has CrossOver 25+ support and is NOT kernel-anti-cheat gated, but online reliability is reported as inconsistent (always-on Rockstar Launcher + behavior checks). Single-player RDR2 is the reliable use case; online is hit-or-miss, not a hard block."
+ },
+ "1531430": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Paragon: The Overprime servers were shut down permanently on 2024-04-22 (Netmarble). The game no longer exists to connect to -- the XIGNCODE3/CrossOver question is moot. Nothing to try here."
+ },
+ "10090": {
+  "rating": "Runs",
+  "renderer": "-",
+  "note": "Call of Duty: World at War: campaign/offline launches and runs per CodeWeavers forum reports (some report no sound or reduced framerate). Multiplayer needs PunkBuster, which doesn't work under CrossOver -- use the Steam (DRM-free) build, not a disc install."
+ },
+ "381210": {
+  "rating": "Unplayable",
+  "renderer": "-",
+  "note": "Dead by Daylight: Easy Anti-Cheat blocks CrossOver outright, even Custom Games with Bots need a live BHVR server connection so there is no offline workaround. Watch for change: DbD began trialing Denuvo Anti-Cheat instead of EAC around 2026-09-02, but no post-switch CrossOver report exists yet."
+ },
+ "2780980": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "LOCKDOWN Protocol: CodeWeavers promoted it as playable on Mac via CrossOver (X post), but the compatibility page has limited user submissions. Try D3DMetal first."
+ },
+ "1721470": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "Poppy Playtime: CodeWeavers page exists (one summary called its current rating stale); no anti-cheat found. Try D3DMetal first."
+ },
+ "1604030": {
+  "rating": "Runs great",
+  "renderer": "d3dmetal",
+  "note": "V Rising: one MacGamingDB user report -- installs and runs great, even with dual monitors, no anti-cheat found for this title. Anecdotal (single report), not an official CodeWeavers rating."
+ },
+ "2129530": {
+  "rating": "Runs",
+  "renderer": "d3dmetal",
+  "note": "REANIMAL: the Demo listing is confirmed working on CrossOver 25.1.1/26.0 via D3DMetal (macOS 15); the full game (this AppID) wasn't separately rated but should behave the same, no anti-cheat found."
+ },
+ "1977530": {
+  "rating": "-",
+  "renderer": "-",
+  "note": "One-armed cook: confirmed no CrossOver/CodeWeavers data exists anywhere -- a genuinely obscure indie title. Try D3DMetal first, DXMT if it fails."
+ },
+ "1449850": {
+  "rating": "Runs great",
+  "renderer": "dxvk",
+  "note": "Yu-Gi-Oh! Master Duel: rated 'EXCELLENT' on CrossOver 26.0 (up from 'VERY GOOD' on 25.1.1), best on DXVK not D3DMetal. No EAC/BattlEye found (inferred from absence + open cheat-engine activity on Steam forums, not a confirmed negative). Older/lower-RAM Macs report heavy fan use."
+ },
+ "3029110": {
+  "rating": "N/A",
+  "renderer": "-",
+  "note": "Lepton is Valve's own Android-on-Linux compatibility layer for the upcoming Steam Frame headset, not a Windows game -- it has no store page to launch and CrossOver is irrelevant. Excluded from the games list."
+ },
+ "1278480": {
+  "rating": "N/A",
+  "renderer": "-",
+  "note": "Smart Game Booster is a Windows system-optimization utility (IObit) -- it works by throttling real Windows processes/services, none of which exist inside a Wine bottle. Running it under CrossOver would be functionally inert. Excluded from the games list."
+ }
 }
