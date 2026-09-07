@@ -10,3 +10,4 @@
 2026-09-06 12:53 +0300 PATCH ELDEN RING eldenring.exe: frame tick 1/60->1/120 + 60Hz display lock zeroed (same bytes as uberhalit FPS unlocker); original at Game/eldenring.exe.orig-60fps. Revert: copy it back, or Steam > Verify integrity
 2026-09-06 13:07 +0300 INSTALL EldenRingFPSUnlockAndMore_v1.1.0.0.exe (402944 bytes) from github.com/uberhalit/EldenRingFpsUnlockAndMore official release 1.1.0.0, placed in ELDEN RING/Game/FpsUnlock/. RAM-only patcher, no game files modified. Revert: delete the FpsUnlock folder
 2026-09-06 13:21 +0300 REMOVED EldenRingFPSUnlockAndMore_v1.1.0.0.exe and FpsUnlock/ folder — owner dropped the 120fps unlock attempt
+2026-09-07 14:48 +0300 DELETED Cyberpunk 2077 (1091500) Windows/CrossOver install stubs: bottle 'Steam' (86.6GB staged download, never fully installed) and old Merlot prefix ~/.wine-steam-11 (11GB staged download) — CD Projekt Red shipped a native Apple Silicon Mac port in July 2025, use the regular Steam app instead
